@@ -1,0 +1,34 @@
+.popup {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: inline-flex;
+  flex-direction: column; 
+  z-index: 1000; 
+}
+  
+  label {
+    margin-bottom: 10px;
+    color:#898383;
+  }
+  select {
+    margin-left: 62px;
+  }
+  
+  label:last-child select {
+    margin-left: 66px;
+  }
+  
+  @media only screen and (max-width: 1500px) {
+    .popup {
+      top: 6%;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .popup {
+      top: 5%;
+    }
+  }

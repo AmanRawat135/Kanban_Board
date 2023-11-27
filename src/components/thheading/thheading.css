@@ -1,0 +1,15 @@
+.three-dots{
+    position: absolute;
+    margin-left: 16%;
+    display: flex;
+}
+.th{
+    display:inline-flex;
+}
+@media only screen and (max-width: 650px) {
+    .three-dots{
+        position: absolute;
+        right: 2%;
+        display: flex;
+    }
+}
